@@ -1,0 +1,685 @@
+/* Font Import - Open Sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+/* Default Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Container Utility Style */
+
+.container {
+    max-width: 1400px;
+    align-items: center;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+/* Flex Utility Style */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Grid Utility Style */
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 25px;
+}
+
+/* All Section Intro Style */
+
+.section-into {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.section-heading {
+    margin: 5px 0 15px 0;
+}
+
+.section-paragraph {
+    font-size: 15px;
+}
+
+/* Body Style */
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #5a5a5a;
+    width: 100%;
+}
+
+/* Font Style */
+
+p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000000;
+}
+
+h5 {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000000;
+}
+
+h6 {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #000000;
+}
+
+/* Button Style */
+
+.button {
+    background-color: #ffd800;
+    color: #2f2207;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 20px;
+    align-items: center;
+    border-radius: 15px;
+    line-height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    width: 10%;
+    background-color: #ffc900;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 20px;
+    align-items: center;
+    border-radius: 15px;
+    line-height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Header Style */
+
+.header .container {
+    justify-content: space-between;
+    width: 1200px;
+    height: 120px;
+}
+
+/* Primary Menu Style */
+
+.primary-menu {
+    margin-left: 80px;
+}
+
+.menu-link {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 25px;
+    color: black;
+}
+
+.menu-link:hover {
+    border-bottom: 2px solid #ffd800;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: black;
+}
+
+.menu-link:active {
+    border-bottom: 2px solid #ffd800;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: black;
+}
+
+.login-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.login-link:hover {
+    color: #ffd800;
+}
+
+.user-icon i {
+    font-size: 20px;
+    margin-right: 10px;
+    align-content: center;
+}
+
+.header-btn {
+    margin-left: 50px;
+}
+
+/* First Section Style - First Banner */
+
+.first-banner .container {
+    width: 1200px;
+    background-image: url(/images/home-hero-new@2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    text-align: center;
+    padding: 150px 0 50px 0;
+}
+
+.banner-paragraph {
+    margin: 20px 0;
+    color: white;
+}
+
+.banner-heading {
+    color: white;
+}
+
+.banner-button {
+    background-color: #ffd800;
+    color: #2f2207;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+    line-height: 100px;
+    padding: 18px 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.banner-button:hover {
+    background-color: #ffc900;
+}
+
+/* Second Section Style */
+
+.second-section .container {
+    width: 1200px;
+    padding: 80px 0;
+}
+
+/* Second Section Background Image Style */
+
+.second-section {
+    background-image: url(/images/decorative-shape.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 820px;
+}
+
+/* Second Section - Second-Sec-1 - Our Services Style */
+
+.second-sec-1 {
+    width: 45%;
+}
+
+.second-paragraph {
+    font-size: 15px;
+    margin: 30px 0;
+}
+
+.second-heading {
+    margin-top: 20px;
+}
+
+/* Second Section - Second-Sec-2 Style */
+
+.second-sec-2 {
+    width: 55%;
+    padding-left: 60px;
+}
+
+/* Second Section - Second-Sec-2 Box Style */
+
+.box-heading {
+    margin: 30px 0 20px 0;
+}
+
+/* Second Section - Second-Sec-2 - Coloumn-1 Style */
+
+.first-col-box {
+    background-color: #ffffff;
+    box-shadow: 0 5px 5px 0 rgb(18 63 82 / 4%), 0 0 0 1px rgb(176 181 193 / 20%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
+    border-radius: 25px;
+    padding: 80px 40px;
+    margin: 0 20px 40px 0;
+}
+
+/* Second Section - Second-Sec-2 - Coloumn-2 Style */
+
+.second-col-box {
+    background-color: #ffffff;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: 0 5px 5px 0 rgb(18 63 82 / 4%), 0 0 0 1px rgb(176 181 193 / 20%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
+    border-radius: 25px;
+    padding: 80px 40px;
+    margin: 0 0 40px 20px;
+}
+
+.coloumn-2 {
+    padding-top: 160px;
+}
+
+/* Third Section - Featured Projects Style */
+
+.third-section {
+    background-image: url(/images/decorative-shape-2.svg);
+    background-position: left-top;
+    background-repeat: no-repeat;
+    background-size: 880px;
+    padding-bottom: 60px;
+}
+
+.third-section .container {
+    width: 1200px;
+}
+
+/* Third Section - Featured Projects Images Style */
+
+/* Third Section - Featured Projects Images First Row Style */
+
+.images-section-1 img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.images-section-1 {
+    justify-content: space-between;
+    gap: 30px;
+    height: 485px;
+}
+
+/* Third Section - Featured Projects Images Second Row Style */
+
+.images-section-2 img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.images-section-2 {
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.images-section-2-1, .grid {
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.case-study-1 {
+    width: 485px;
+}
+
+.case-study-2 {
+    height: 485px;
+}
+
+/* Fourth Section Style */
+
+.plan-features li {
+    font-size: 15px;
+    line-height: 2.6;
+}
+
+.plan-features i {
+    margin-right: 15px;
+}
+
+.pricing-plan {
+    padding-bottom: 80px;
+    gap: 60px;
+}
+
+/* Fourth Section - Price Box Style */
+
+.price-box {
+    background-color: #ffffff;
+    box-shadow: 0 20px 80px 0 rgba(193, 199, 212, .25);
+    border-radius: 25px;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.price-heading {
+    font-size: 70px;
+    margin: 20px 0 30px 0;
+}
+
+.price-sub-heading {
+    font-size: 21px;
+}
+
+.pricing-button {
+    background-color: #ffd800;
+    color: #2f2207;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 16px 36px;
+    align-items: center;
+    border-radius: 15px;
+    line-height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pricing-button:hover {
+    background-color: #ffc900;
+    color: #2f2207;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 16px 36px;
+    align-items: center;
+    border-radius: 15px;
+    line-height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Fifth Section Style */
+
+.fourth-section .container {
+    background-image: url(/images/decorative-shape.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 820px;
+}
+
+.team-member {
+    text-align: center;
+    gap: 35px;
+}
+
+.team-member .flex {
+    justify-content: center;
+}
+
+.team-image {
+    width: 380px;
+    border-radius: 30px;
+}
+
+.team-heading {
+    margin: 30px 0 10px 0;
+}
+
+.team-paragraph {
+    font-size: 15px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.social i {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.social i:hover {
+    background-color: #ffd800;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* Sixth Section Style */
+
+.sixth-section {
+    padding: 80px 0;
+}
+
+.sixth-section .container {
+    width: 1200px;
+}
+
+.testimonial-section {
+    text-align: center;
+    gap: 35px;
+}
+
+.testimonial-section {
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #fafafa;
+    padding: 60px 35px;
+    border-radius: 25px;
+}
+
+.testimonial img {
+    border-radius: 50px;
+    width: 70px;
+}
+
+.testimonial-heading {
+    margin: 10px 0 15px 0;
+}
+
+.testimonial-paragraph {
+    font-size: 15px;
+}
+
+/* Seven Section Style */
+
+.seven-section .container {
+    width: 1200px;
+    padding: 40px 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.seven-section .flex {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.companies-icon span {
+    color: #ffd800;
+    font-size: 40px;
+}
+
+/* Eight Section Style */
+
+.eight-section {
+    padding: 80px 0;
+}
+
+.eight-section .container {
+    width: 1200px;
+    background-color: #ffd800;
+    padding: 45px 55px;
+    border-radius: 25px;
+}
+
+.eight-section .flex {
+    justify-content: space-between;
+}
+
+.cta-paragraph {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px 36px;
+    align-items: center;
+    border-radius: 15px;
+    line-height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px 36px;
+    align-items: center;
+    border-radius: 15px;
+    line-height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Footer Style */
+
+.footer .container {
+    width: 1200px;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.footer-social-icons {
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.footer-social-icons i {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 10px 15px 0 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.footer-social-icons i:hover {
+    background-color: #ffd800;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.footer-paragraph {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.footer-heading {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.footer-menu {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    line-height: 2.2;
+}
+
+.footer-menu-heading {
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #fafafa;
+    padding: 60px 0;
+}
+
+/* Footer Copyright - Style */
+
+.copyright-section .container {
+    width: 1200px;
+}
+
+.copyright-section {
+    background-color: #fafafa;
+}
+
+.copyright-paragraph {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright-footer {
+    border-top: 1px solid #ebebeb;
+}
